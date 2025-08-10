@@ -1,0 +1,23 @@
+ecommerce_analytics:
+  outputs:
+    dev:
+      dataset: ecommerce_dev
+      keyfile: /path/to/service-account-key.json
+      location: US
+      method: service-account
+      project: your-gcp-project-id
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+    prod:
+      dataset: ecommerce_prod
+      keyfile: /path/to/service-account-key.json
+      location: US
+      method: service-account
+      project: your-gcp-project-id
+      retries: 3
+      threads: 8
+      timeout_seconds: 300
+      type: bigquery
+  target: dev

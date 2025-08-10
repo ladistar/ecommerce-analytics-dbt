@@ -1,0 +1,137 @@
+version: 2
+seeds:
+- name: customers
+  description: Customer master data including demographics and acquisition info
+  columns:
+  - name: customer_id
+    description: Unique customer identifier
+    tests:
+    - unique
+    - not_null
+  - name: email
+    description: Customer email address
+    tests:
+    - unique
+    - not_null
+  - name: first_name
+    description: Customer first name
+  - name: last_name
+    description: Customer last name
+  - name: signup_date
+    description: Date customer signed up
+  - name: customer_segment
+    description: Customer tier (Premium, Standard, Basic)
+  - name: acquisition_channel
+    description: How customer was acquired
+  - name: country
+    description: Customer country code
+  - name: is_active
+    description: Whether customer is currently active
+- name: products
+  description: Product catalog with pricing and categorization
+  columns:
+  - name: product_id
+    description: Unique product identifier
+    tests:
+    - unique
+    - not_null
+  - name: product_name
+    description: Product display name
+  - name: category
+    description: Product category
+  - name: brand
+    description: Product brand
+  - name: price
+    description: Current selling price
+    tests:
+    - not_null
+  - name: cost
+    description: Product cost basis
+  - name: created_at
+    description: Product creation date
+  - name: is_active
+    description: Whether product is currently active
+- name: orders
+  description: Order header information
+  columns:
+  - name: order_id
+    description: Unique order identifier
+    tests:
+    - unique
+    - not_null
+  - name: customer_id
+    description: Customer who placed the order
+    tests:
+    - not_null
+  - name: order_date
+    description: Date order was placed
+  - name: order_status
+    description: Current order status
+  - name: shipping_cost
+    description: Shipping charges
+  - name: tax_amount
+    description: Tax amount
+  - name: total_amount
+    description: Total order value including tax and shipping
+- name: order_items
+  description: Individual line items within orders
+  columns:
+  - name: order_item_id
+    description: Unique order item identifier
+    tests:
+    - unique
+    - not_null
+  - name: order_id
+    description: Parent order identifier
+    tests:
+    - not_null
+  - name: product_id
+    description: Product purchased
+    tests:
+    - not_null
+  - name: quantity
+    description: Quantity purchased
+    tests:
+    - not_null
+  - name: unit_price
+    description: Price per unit at time of purchase
+  - name: line_total
+    description: Total for this line item
+- name: marketing_campaigns
+  description: Marketing campaign master data
+  columns:
+  - name: campaign_id
+    description: Unique campaign identifier
+    tests:
+    - unique
+    - not_null
+  - name: campaign_name
+    description: Campaign display name
+  - name: campaign_type
+    description: Type of marketing campaign
+  - name: start_date
+    description: Campaign start date
+  - name: end_date
+    description: Campaign end date
+  - name: budget
+    description: Campaign budget
+  - name: status
+    description: Current campaign status
+- name: web_events
+  description: Website interaction events
+  columns:
+  - name: event_id
+    description: Unique event identifier
+    tests:
+    - unique
+    - not_null
+  - name: user_id
+    description: User who triggered the event
+  - name: event_type
+    description: Type of event
+  - name: event_timestamp
+    description: When the event occurred
+  - name: page_url
+    description: Page where event occurred
+  - name: campaign_id
+    description: Associated campaign if applicable

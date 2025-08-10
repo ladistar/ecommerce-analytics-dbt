@@ -1,0 +1,46 @@
+version: 2
+models:
+- name: int_customer_metrics
+  description: Customer metrics with order history and segmentation
+  columns:
+  - name: customer_id
+    description: Unique customer identifier
+    tests:
+    - unique
+    - not_null
+  - name: total_orders
+    description: Total orders placed
+  - name: total_revenue
+    description: Total revenue from completed orders
+  - name: order_frequency_segment
+    description: Frequency-based segment
+  - name: revenue_segment
+    description: Revenue-based segment
+- name: int_product_performance
+  description: Product sales performance with rankings
+  columns:
+  - name: product_id
+    description: Unique product identifier
+    tests:
+    - unique
+    - not_null
+  - name: total_quantity_sold
+    description: Units sold
+  - name: total_revenue
+    description: Revenue generated
+  - name: revenue_rank
+    description: Revenue ranking
+  - name: performance_tier
+    description: Performance classification
+- name: int_order_enriched
+  description: Orders enriched with customer and temporal data
+  columns:
+  - name: order_id
+    description: Unique order identifier
+    tests:
+    - unique
+    - not_null
+  - name: item_count
+    description: Number of items in order
+  - name: order_day_name
+    description: Day of week order was placed

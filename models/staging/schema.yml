@@ -1,0 +1,115 @@
+version: 2
+models:
+- name: stg_customers
+  description: Cleaned and standardized customer data
+  columns:
+  - name: customer_id
+    description: Unique customer identifier
+    tests:
+    - unique
+    - not_null
+  - name: email
+    description: Customer email address
+    tests:
+    - unique
+    - not_null
+  - name: signup_date
+    description: Date customer signed up
+  - name: customer_segment
+    description: Customer tier
+    tests:
+    - 'accepted_values: {values: [Premium, Standard, Basic]}'
+  - name: acquisition_channel
+    description: Customer acquisition source
+  - name: country
+    description: Customer country
+  - name: is_active
+    description: Active status flag
+- name: stg_products
+  description: Cleaned product catalog with calculated margins
+  columns:
+  - name: product_id
+    description: Unique product identifier
+    tests:
+    - unique
+    - not_null
+  - name: product_name
+    description: Product name
+  - name: category
+    description: Product category
+  - name: brand
+    description: Product brand
+  - name: price
+    description: Selling price
+    tests:
+    - not_null
+  - name: cost
+    description: Product cost
+  - name: gross_margin
+    description: Price minus cost
+  - name: margin_percentage
+    description: Margin as percentage of price
+- name: stg_orders
+  description: Cleaned order header data
+  columns:
+  - name: order_id
+    description: Unique order identifier
+    tests:
+    - unique
+    - not_null
+  - name: customer_id
+    description: Customer who placed order
+    tests:
+    - not_null
+  - name: order_date
+    description: Order placement date
+  - name: order_status
+    description: Order status
+  - name: subtotal
+    description: Order value before tax and shipping
+- name: stg_order_items
+  description: Cleaned order line items
+  columns:
+  - name: order_item_id
+    description: Unique line item identifier
+    tests:
+    - unique
+    - not_null
+  - name: order_id
+    description: Parent order
+    tests:
+    - not_null
+  - name: product_id
+    description: Product purchased
+    tests:
+    - not_null
+  - name: quantity
+    description: Quantity purchased
+    tests:
+    - not_null
+- name: stg_marketing_campaigns
+  description: Cleaned marketing campaign data
+  columns:
+  - name: campaign_id
+    description: Unique campaign identifier
+    tests:
+    - unique
+    - not_null
+  - name: campaign_type
+    description: Campaign type
+  - name: campaign_duration_days
+    description: Campaign length in days
+- name: stg_web_events
+  description: Cleaned web event data with extracted date/time components
+  columns:
+  - name: event_id
+    description: Unique event identifier
+    tests:
+    - unique
+    - not_null
+  - name: event_type
+    description: Type of event
+  - name: event_date
+    description: Date of event
+  - name: event_hour
+    description: Hour of event (0-23)

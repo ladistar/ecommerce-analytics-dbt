@@ -1,0 +1,98 @@
+version: 2
+models:
+- name: mart_customer_analytics
+  description: Comprehensive customer analytics with segmentation and lifecycle stages
+  columns:
+  - name: customer_id
+    description: Unique customer identifier
+    tests:
+    - unique
+    - not_null
+  - name: total_orders
+    description: Total number of orders placed
+  - name: completed_orders
+    description: Number of completed orders
+  - name: total_revenue
+    description: Total revenue from completed orders
+  - name: avg_order_value
+    description: Average order value
+  - name: order_frequency_segment
+    description: Customer segment based on order frequency
+  - name: revenue_segment
+    description: Customer segment based on total revenue
+  - name: customer_lifecycle_stage
+    description: Current lifecycle stage (Active, At Risk, Dormant, Lost)
+  - name: customer_value_tier
+    description: Value tier (VIP, Valuable, Standard, New)
+  - name: signup_cohort
+    description: Month-year cohort when customer signed up
+  - name: first_order_cohort
+    description: Month-year cohort of first order
+- name: mart_sales_analytics
+  description: Enriched sales data with customer context and running metrics
+  columns:
+  - name: order_id
+    description: Unique order identifier
+    tests:
+    - unique
+    - not_null
+  - name: customer_id
+    description: Customer who placed the order
+  - name: order_date
+    description: Date order was placed
+  - name: total_amount
+    description: Total order value
+  - name: customer_lifecycle_stage
+    description: Customer lifecycle at time of order
+  - name: customer_value_tier
+    description: Customer value tier
+  - name: customer_running_total
+    description: Running total of customer spend
+  - name: customer_order_sequence
+    description: Order sequence number for customer
+- name: mart_product_analytics
+  description: Product performance analytics with category and brand comparisons
+  columns:
+  - name: product_id
+    description: Unique product identifier
+    tests:
+    - unique
+    - not_null
+  - name: total_quantity_sold
+    description: Total units sold
+  - name: total_revenue
+    description: Total revenue generated
+  - name: revenue_rank
+    description: Revenue ranking among all products
+  - name: performance_tier
+    description: Performance classification
+  - name: category_performance
+    description: Performance vs category average
+  - name: brand_performance
+    description: Performance vs brand average
+- name: mart_marketing_analytics
+  description: Marketing campaign performance with conversion metrics
+  columns:
+  - name: campaign_id
+    description: Unique campaign identifier
+    tests:
+    - unique
+    - not_null
+  - name: campaign_name
+    description: Campaign name
+  - name: campaign_type
+    description: Type of campaign
+  - name: total_events
+    description: Total events generated
+  - name: unique_users
+    description: Unique users reached
+  - name: cart_conversion_rate
+    description: Add to cart conversion rate (%)
+  - name: purchase_conversion_rate
+    description: Purchase conversion rate (%)
+  - name: signup_conversion_rate
+    description: Signup conversion rate (%)
+  - name: daily_budget
+    description: Average daily budget
+  - name: events_per_day
+    description: Average events per day

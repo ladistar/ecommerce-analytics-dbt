@@ -1,0 +1,51 @@
+campaign_id,campaign_name,campaign_type,start_date,end_date,budget,status
+1,Influencer Campaign 1,Display,2022-03-31,2022-04-07,5765.19,Paused
+2,Influencer Campaign 2,Email,2022-09-14,2022-11-18,16281.44,Completed
+3,Influencer Campaign 3,Email,2023-11-06,2024-01-29,17788.73,Paused
+4,Email Campaign 4,Display,2022-08-18,2022-10-31,23255.28,Completed
+5,Social Media Campaign 5,Display,2023-01-26,2023-04-02,23152.44,Active
+6,Email Campaign 6,Email,2023-08-22,2023-10-18,40247.21,Active
+7,Display Campaign 7,Paid Search,2023-04-15,2023-05-15,11962.33,Active
+8,Influencer Campaign 8,Display,2022-02-28,2022-04-22,28813.08,Paused
+9,Paid Search Campaign 9,Influencer,2022-06-12,2022-07-23,49224.76,Active
+10,Paid Search Campaign 10,Paid Search,2023-11-12,2024-02-09,45835.27,Paused
+11,Social Media Campaign 11,Display,2023-09-25,2023-10-27,23878.35,Active
+12,Paid Search Campaign 12,Influencer,2022-04-29,2022-06-17,5697.87,Paused
+13,Social Media Campaign 13,Social Media,2023-11-24,2024-02-02,36777.71,Paused
+14,Display Campaign 14,Influencer,2022-01-05,2022-03-28,17676.25,Completed
+15,Influencer Campaign 15,Display,2023-07-20,2023-10-03,37961.91,Active
+16,Influencer Campaign 16,Display,2023-06-21,2023-08-10,10822.86,Paused
+17,Display Campaign 17,Influencer,2023-05-28,2023-07-22,15373.81,Active
+18,Paid Search Campaign 18,Paid Search,2022-07-19,2022-09-16,44301.7,Active
+19,Social Media Campaign 19,Social Media,2022-06-22,2022-08-16,25010.11,Paused
+20,Paid Search Campaign 20,Influencer,2023-11-05,2024-01-05,20291.7,Paused
+21,Display Campaign 21,Display,2022-12-09,2023-02-20,19865.53,Paused
+22,Paid Search Campaign 22,Display,2023-08-21,2023-11-17,37484.5,Paused
+23,Social Media Campaign 23,Paid Search,2022-12-29,2023-03-26,42829.77,Paused
+24,Email Campaign 24,Social Media,2022-11-24,2023-02-21,13406.2,Paused
+25,Display Campaign 25,Social Media,2022-09-05,2022-11-07,30425.27,Active
+26,Influencer Campaign 26,Influencer,2023-07-27,2023-09-06,20519.83,Active
+27,Paid Search Campaign 27,Paid Search,2023-10-20,2024-01-14,43998.93,Active
+28,Paid Search Campaign 28,Influencer,2023-03-28,2023-05-18,43478.08,Active
+29,Email Campaign 29,Paid Search,2023-05-09,2023-07-22,12249.03,Active
+30,Paid Search Campaign 30,Display,2022-07-23,2022-10-06,29436.95,Active
+31,Social Media Campaign 31,Display,2023-09-14,2023-10-06,30440.95,Paused
+32,Paid Search Campaign 32,Email,2023-06-22,2023-07-04,24261.21,Paused
+33,Paid Search Campaign 33,Email,2022-08-03,2022-08-17,18235.66,Completed
+34,Social Media Campaign 34,Paid Search,2023-01-31,2023-03-06,42083.12,Paused
+35,Social Media Campaign 35,Display,2022-04-16,2022-04-28,18687.24,Active
+36,Influencer Campaign 36,Display,2023-06-30,2023-09-02,11092.8,Paused
+37,Paid Search Campaign 37,Display,2023-02-09,2023-04-16,14057.42,Paused
+38,Social Media Campaign 38,Social Media,2023-03-19,2023-03-30,42687.46,Active
+39,Influencer Campaign 39,Influencer,2023-05-13,2023-06-14,24252.31,Active
+40,Social Media Campaign 40,Email,2022-12-10,2023-03-03,35726.9,Completed
+41,Email Campaign 41,Email,2022-10-18,2022-11-02,2036.27,Completed
+42,Email Campaign 42,Display,2023-05-16,2023-07-17,40405.51,Active
+43,Paid Search Campaign 43,Email,2023-11-30,2024-02-21,20195.27,Completed
+44,Display Campaign 44,Display,2022-09-26,2022-12-17,28723.29,Paused
+45,Social Media Campaign 45,Social Media,2022-07-27,2022-10-08,43289.06,Active
+46,Paid Search Campaign 46,Paid Search,2023-03-14,2023-04-01,11533.18,Paused
+47,Paid Search Campaign 47,Paid Search,2023-04-03,2023-07-02,35584.91,Paused
+48,Social Media Campaign 48,Paid Search,2023-06-25,2023-09-15,2123.42,Paused
+49,Social Media Campaign 49,Display,2023-11-16,2024-02-13,2553.51,Paused
+50,Influencer Campaign 50,Display,2022-01-30,2022-03-29,17371.89,Paused

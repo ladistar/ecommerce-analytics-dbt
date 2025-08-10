@@ -1,0 +1,501 @@
+product_id,product_name,category,brand,price,cost,created_at,is_active
+1,BrandE Books Product 1,Books,BrandE,132.43,64.2,2022-03-13,True
+2,BrandA Electronics Product 2,Electronics,BrandA,40.22,24.63,2022-04-24,True
+3,BrandB Clothing Product 3,Clothing,BrandB,413.6,185.66,2022-11-19,True
+4,BrandA Beauty Product 4,Beauty,BrandA,295.34,119.18,2022-02-08,True
+5,BrandA Electronics Product 5,Electronics,BrandA,106.9,59.69,2022-03-07,True
+6,BrandC Electronics Product 6,Electronics,BrandC,70.04,47.41,2022-01-26,True
+7,BrandE Clothing Product 7,Clothing,BrandE,222.25,131.08,2022-09-12,True
+8,BrandD Electronics Product 8,Electronics,BrandD,344.77,127.26,2022-04-20,True
+9,BrandC Clothing Product 9,Clothing,BrandC,147.13,96.13,2022-01-18,True
+10,BrandE Books Product 10,Books,BrandE,312.32,174.56,2022-09-13,True
+11,BrandE Sports Product 11,Sports,BrandE,244.73,82.01,2022-07-16,True
+12,BrandD Clothing Product 12,Clothing,BrandD,107.73,70.44,2022-09-27,False
+13,BrandE Clothing Product 13,Clothing,BrandE,399.47,277.94,2023-01-01,False
+14,BrandD Home & Garden Product 14,Home & Garden,BrandD,276.81,136.71,2022-10-17,True
+15,BrandC Books Product 15,Books,BrandC,200.31,74.5,2022-06-13,True
+16,BrandB Books Product 16,Books,BrandB,24.36,15.21,2022-05-24,False
+17,BrandD Electronics Product 17,Electronics,BrandD,269.42,163.47,2022-04-30,True
+18,BrandA Clothing Product 18,Clothing,BrandA,131.45,52.11,2022-10-01,True
+19,BrandA Toys Product 19,Toys,BrandA,384.38,261.04,2022-10-22,False
+20,BrandD Toys Product 20,Toys,BrandD,183.85,116.87,2022-03-30,True
+21,BrandB Clothing Product 21,Clothing,BrandB,300.33,186.95,2022-12-24,True
+22,BrandE Home & Garden Product 22,Home & Garden,BrandE,23.82,13.82,2022-10-18,True
+23,BrandB Books Product 23,Books,BrandB,285.92,107.3,2022-09-10,False
+24,BrandC Books Product 24,Books,BrandC,96.02,30.26,2022-01-29,False
+25,BrandE Clothing Product 25,Clothing,BrandE,117.22,59.85,2022-01-01,False
+26,BrandE Home & Garden Product 26,Home & Garden,BrandE,108.72,38.29,2022-04-01,True
+27,BrandC Toys Product 27,Toys,BrandC,39.18,14.07,2022-12-27,True
+28,BrandA Clothing Product 28,Clothing,BrandA,424.78,273.67,2022-02-07,True
+29,BrandD Home & Garden Product 29,Home & Garden,BrandD,297.15,129.15,2022-06-15,True
+30,BrandB Clothing Product 30,Clothing,BrandB,368.85,175.11,2022-11-24,True
+31,BrandC Sports Product 31,Sports,BrandC,95.36,65.56,2022-12-22,True
+32,BrandC Books Product 32,Books,BrandC,119.39,63.94,2022-03-31,True
+33,BrandC Sports Product 33,Sports,BrandC,369.66,154.45,2022-04-01,True
+34,BrandA Beauty Product 34,Beauty,BrandA,474.91,322.69,2022-07-20,True
+35,BrandE Toys Product 35,Toys,BrandE,25.87,13.99,2022-11-10,True
+36,BrandE Clothing Product 36,Clothing,BrandE,61.01,30.41,2022-06-19,True
+37,BrandA Beauty Product 37,Beauty,BrandA,126.62,87.74,2022-03-27,True
+38,BrandA Beauty Product 38,Beauty,BrandA,412.61,234.37,2022-06-21,True
+39,BrandA Sports Product 39,Sports,BrandA,139.95,55.95,2022-02-04,True
+40,BrandC Home & Garden Product 40,Home & Garden,BrandC,395.64,232.7,2022-01-25,True
+41,BrandD Sports Product 41,Sports,BrandD,368.97,253.72,2022-07-31,True
+42,BrandD Sports Product 42,Sports,BrandD,182.1,81.97,2022-09-03,True
+43,BrandE Toys Product 43,Toys,BrandE,328.98,189.12,2022-03-25,True
+44,BrandA Sports Product 44,Sports,BrandA,401.61,125.85,2022-01-11,True
+45,BrandC Home & Garden Product 45,Home & Garden,BrandC,476.31,157.03,2022-03-29,True
+46,BrandB Sports Product 46,Sports,BrandB,368.67,191.27,2022-02-17,True
+47,BrandE Home & Garden Product 47,Home & Garden,BrandE,492.79,323.91,2022-12-27,True
+48,BrandD Electronics Product 48,Electronics,BrandD,471.8,172.68,2022-08-11,True
+49,BrandA Clothing Product 49,Clothing,BrandA,59.62,22.79,2022-04-08,True
+50,BrandE Sports Product 50,Sports,BrandE,363.8,215.37,2022-05-16,True
+51,BrandC Beauty Product 51,Beauty,BrandC,155.73,52.69,2022-07-21,True
+52,BrandE Books Product 52,Books,BrandE,421.53,152.36,2022-07-04,True
+53,BrandD Electronics Product 53,Electronics,BrandD,52.94,33.33,2022-11-17,False
+54,BrandD Books Product 54,Books,BrandD,107.84,33.46,2022-03-29,True
+55,BrandC Beauty Product 55,Beauty,BrandC,488.76,239.21,2022-03-01,False
+56,BrandD Home & Garden Product 56,Home & Garden,BrandD,240.76,158.41,2022-05-16,True
+57,BrandE Electronics Product 57,Electronics,BrandE,199.89,89.63,2022-07-15,True
+58,BrandB Home & Garden Product 58,Home & Garden,BrandB,228.43,92.59,2022-08-27,True
+59,BrandB Home & Garden Product 59,Home & Garden,BrandB,420.17,220.88,2022-03-19,True
+60,BrandA Toys Product 60,Toys,BrandA,52.0,22.75,2022-10-05,True
+61,BrandE Sports Product 61,Sports,BrandE,121.48,39.41,2022-07-18,True
+62,BrandE Toys Product 62,Toys,BrandE,215.13,110.62,2022-09-01,False
+63,BrandB Books Product 63,Books,BrandB,243.37,80.7,2023-01-01,True
+64,BrandE Electronics Product 64,Electronics,BrandE,289.9,146.9,2022-10-20,True
+65,BrandE Beauty Product 65,Beauty,BrandE,82.25,55.91,2022-08-18,True
+66,BrandB Clothing Product 66,Clothing,BrandB,486.36,303.19,2022-03-06,True
+67,BrandD Electronics Product 67,Electronics,BrandD,48.4,27.75,2022-04-14,True
+68,BrandB Toys Product 68,Toys,BrandB,418.71,168.8,2022-02-04,True
+69,BrandD Electronics Product 69,Electronics,BrandD,282.62,147.19,2022-05-22,True
+70,BrandD Books Product 70,Books,BrandD,459.41,140.1,2022-12-25,True
+71,BrandE Books Product 71,Books,BrandE,266.06,124.47,2022-08-01,True
+72,BrandB Clothing Product 72,Clothing,BrandB,287.63,153.33,2022-02-21,True
+73,BrandE Electronics Product 73,Electronics,BrandE,391.98,240.79,2022-10-02,True
+74,BrandD Home & Garden Product 74,Home & Garden,BrandD,139.43,78.35,2022-10-20,True
+75,BrandD Books Product 75,Books,BrandD,28.36,11.63,2022-03-15,False
+76,BrandE Books Product 76,Books,BrandE,343.6,158.29,2022-07-22,True
+77,BrandB Home & Garden Product 77,Home & Garden,BrandB,34.15,16.74,2022-05-18,True
+78,BrandA Home & Garden Product 78,Home & Garden,BrandA,175.55,108.4,2022-06-09,True
+79,BrandD Home & Garden Product 79,Home & Garden,BrandD,430.54,247.1,2022-04-27,True
+80,BrandC Clothing Product 80,Clothing,BrandC,487.37,232.59,2022-06-14,False
+81,BrandD Home & Garden Product 81,Home & Garden,BrandD,306.44,102.88,2022-08-15,True
+82,BrandD Clothing Product 82,Clothing,BrandD,373.06,225.25,2022-07-11,True
+83,BrandA Toys Product 83,Toys,BrandA,262.48,95.43,2022-06-09,True
+84,BrandE Beauty Product 84,Beauty,BrandE,207.66,127.13,2022-09-26,True
+85,BrandA Books Product 85,Books,BrandA,95.13,61.84,2022-04-13,False
+86,BrandA Toys Product 86,Toys,BrandA,132.25,63.82,2022-07-04,True
+87,BrandB Beauty Product 87,Beauty,BrandB,144.25,90.79,2022-09-16,True
+88,BrandA Sports Product 88,Sports,BrandA,343.78,136.4,2022-09-08,True
+89,BrandD Books Product 89,Books,BrandD,97.02,62.89,2022-10-28,False
+90,BrandC Books Product 90,Books,BrandC,178.68,113.47,2022-05-13,True
+91,BrandA Beauty Product 91,Beauty,BrandA,149.68,68.05,2022-03-25,False
+92,BrandE Toys Product 92,Toys,BrandE,392.12,151.25,2022-04-24,True
+93,BrandB Beauty Product 93,Beauty,BrandB,342.07,139.44,2022-07-29,True
+94,BrandA Books Product 94,Books,BrandA,433.67,297.87,2022-12-16,True
+95,BrandD Electronics Product 95,Electronics,BrandD,456.64,255.24,2022-11-04,True
+96,BrandA Toys Product 96,Toys,BrandA,119.65,65.01,2022-06-06,True
+97,BrandC Beauty Product 97,Beauty,BrandC,217.67,98.08,2022-06-28,True
+98,BrandC Sports Product 98,Sports,BrandC,116.92,49.21,2022-09-24,True
+99,BrandE Toys Product 99,Toys,BrandE,204.6,69.75,2022-09-19,True
+100,BrandC Beauty Product 100,Beauty,BrandC,285.11,153.25,2022-05-25,True
+101,BrandA Home & Garden Product 101,Home & Garden,BrandA,246.05,106.91,2022-05-22,True
+102,BrandC Beauty Product 102,Beauty,BrandC,432.13,174.78,2022-12-31,False
+103,BrandC Beauty Product 103,Beauty,BrandC,102.3,51.86,2022-05-04,True
+104,BrandE Electronics Product 104,Electronics,BrandE,208.01,88.99,2022-03-13,False
+105,BrandA Beauty Product 105,Beauty,BrandA,331.15,231.47,2022-05-13,False
+106,BrandD Sports Product 106,Sports,BrandD,200.25,62.9,2022-12-29,True
+107,BrandB Books Product 107,Books,BrandB,178.15,104.28,2022-12-18,True
+108,BrandD Books Product 108,Books,BrandD,454.2,258.33,2022-09-17,True
+109,BrandB Home & Garden Product 109,Home & Garden,BrandB,421.91,274.49,2022-04-03,True
+110,BrandA Home & Garden Product 110,Home & Garden,BrandA,240.68,143.53,2022-10-14,True
+111,BrandB Toys Product 111,Toys,BrandB,473.99,312.76,2022-12-02,True
+112,BrandB Electronics Product 112,Electronics,BrandB,184.09,110.03,2022-06-07,True
+113,BrandC Sports Product 113,Sports,BrandC,192.12,102.64,2022-08-26,True
+114,BrandA Toys Product 114,Toys,BrandA,240.56,155.54,2022-10-26,True
+115,BrandE Books Product 115,Books,BrandE,44.9,29.44,2022-09-14,True
+116,BrandD Electronics Product 116,Electronics,BrandD,269.62,125.44,2022-03-19,True
+117,BrandB Clothing Product 117,Clothing,BrandB,177.91,123.63,2022-08-23,True
+118,BrandC Clothing Product 118,Clothing,BrandC,432.57,160.98,2022-02-11,True
+119,BrandC Sports Product 119,Sports,BrandC,319.21,118.34,2022-11-21,True
+120,BrandA Electronics Product 120,Electronics,BrandA,231.51,88.84,2022-03-28,True
+121,BrandB Books Product 121,Books,BrandB,249.89,151.29,2022-02-15,True
+122,BrandE Clothing Product 122,Clothing,BrandE,222.52,104.98,2022-08-08,False
+123,BrandD Sports Product 123,Sports,BrandD,12.29,6.31,2022-07-11,True
+124,BrandC Electronics Product 124,Electronics,BrandC,380.86,195.16,2022-01-10,True
+125,BrandA Beauty Product 125,Beauty,BrandA,317.08,126.68,2022-12-22,True
+126,BrandC Home & Garden Product 126,Home & Garden,BrandC,73.18,33.18,2022-10-29,True
+127,BrandB Home & Garden Product 127,Home & Garden,BrandB,41.99,13.36,2022-05-29,True
+128,BrandE Sports Product 128,Sports,BrandE,302.22,131.51,2022-12-18,True
+129,BrandC Clothing Product 129,Clothing,BrandC,498.11,247.1,2022-04-07,True
+130,BrandD Clothing Product 130,Clothing,BrandD,19.37,7.55,2022-03-09,True
+131,BrandA Clothing Product 131,Clothing,BrandA,298.95,109.89,2022-07-07,True
+132,BrandA Beauty Product 132,Beauty,BrandA,193.84,107.8,2022-10-01,True
+133,BrandA Books Product 133,Books,BrandA,301.02,96.08,2022-02-25,True
+134,BrandA Beauty Product 134,Beauty,BrandA,33.64,11.65,2022-08-16,True
+135,BrandA Sports Product 135,Sports,BrandA,278.17,136.24,2022-03-20,True
+136,BrandA Clothing Product 136,Clothing,BrandA,157.55,88.96,2022-12-06,True
+137,BrandC Books Product 137,Books,BrandC,315.17,182.89,2022-08-03,True
+138,BrandA Toys Product 138,Toys,BrandA,260.68,142.61,2022-05-25,True
+139,BrandA Electronics Product 139,Electronics,BrandA,253.89,138.01,2022-05-15,True
+140,BrandE Toys Product 140,Toys,BrandE,486.83,215.75,2022-07-29,True
+141,BrandB Home & Garden Product 141,Home & Garden,BrandB,29.31,14.61,2022-04-17,True
+142,BrandD Beauty Product 142,Beauty,BrandD,172.0,51.79,2022-12-10,True
+143,BrandA Electronics Product 143,Electronics,BrandA,419.26,237.98,2022-03-18,True
+144,BrandE Electronics Product 144,Electronics,BrandE,46.77,27.57,2022-05-12,True
+145,BrandB Beauty Product 145,Beauty,BrandB,233.81,161.54,2022-05-16,True
+146,BrandA Sports Product 146,Sports,BrandA,58.91,21.79,2022-01-21,True
+147,BrandC Toys Product 147,Toys,BrandC,186.51,106.44,2022-08-07,True
+148,BrandA Beauty Product 148,Beauty,BrandA,56.55,34.12,2022-01-24,True
+149,BrandB Electronics Product 149,Electronics,BrandB,335.04,123.36,2022-07-03,True
+150,BrandE Sports Product 150,Sports,BrandE,141.47,83.92,2022-07-10,True
+151,BrandC Toys Product 151,Toys,BrandC,99.61,45.85,2022-08-22,True
+152,BrandD Home & Garden Product 152,Home & Garden,BrandD,348.05,171.0,2022-08-04,True
+153,BrandB Beauty Product 153,Beauty,BrandB,65.4,37.83,2022-01-31,True
+154,BrandB Toys Product 154,Toys,BrandB,60.82,40.41,2022-09-05,True
+155,BrandE Toys Product 155,Toys,BrandE,342.41,127.55,2022-07-14,True
+156,BrandC Toys Product 156,Toys,BrandC,309.57,199.68,2022-03-08,True
+157,BrandD Sports Product 157,Sports,BrandD,65.34,30.35,2022-01-24,True
+158,BrandC Electronics Product 158,Electronics,BrandC,330.94,100.92,2022-12-14,True
+159,BrandE Books Product 159,Books,BrandE,364.65,142.07,2022-12-09,True
+160,BrandC Toys Product 160,Toys,BrandC,264.36,152.09,2022-11-13,True
+161,BrandD Electronics Product 161,Electronics,BrandD,334.24,133.51,2022-06-27,True
+162,BrandD Beauty Product 162,Beauty,BrandD,82.84,52.24,2022-11-10,True
+163,BrandA Electronics Product 163,Electronics,BrandA,325.27,118.0,2022-08-29,True
+164,BrandD Toys Product 164,Toys,BrandD,436.01,143.86,2022-09-09,True
+165,BrandB Home & Garden Product 165,Home & Garden,BrandB,172.14,70.79,2022-09-17,True
+166,BrandE Clothing Product 166,Clothing,BrandE,325.23,150.03,2022-05-01,True
+167,BrandD Electronics Product 167,Electronics,BrandD,227.65,120.48,2022-02-15,True
+168,BrandD Toys Product 168,Toys,BrandD,229.06,79.59,2022-09-12,True
+169,BrandA Beauty Product 169,Beauty,BrandA,60.3,28.04,2022-10-13,True
+170,BrandA Books Product 170,Books,BrandA,414.7,255.75,2022-11-13,True
+171,BrandC Beauty Product 171,Beauty,BrandC,446.15,234.2,2022-12-02,True
+172,BrandD Beauty Product 172,Beauty,BrandD,475.67,211.83,2022-01-28,False
+173,BrandB Toys Product 173,Toys,BrandB,423.72,183.38,2022-11-14,True
+174,BrandD Books Product 174,Books,BrandD,361.16,160.83,2022-08-20,True
+175,BrandA Electronics Product 175,Electronics,BrandA,382.07,148.51,2022-06-24,True
+176,BrandC Home & Garden Product 176,Home & Garden,BrandC,278.37,125.14,2022-02-24,True
+177,BrandB Electronics Product 177,Electronics,BrandB,251.29,157.99,2022-07-29,True
+178,BrandC Electronics Product 178,Electronics,BrandC,309.32,116.0,2022-07-21,True
+179,BrandD Clothing Product 179,Clothing,BrandD,414.03,155.77,2022-06-23,True
+180,BrandD Electronics Product 180,Electronics,BrandD,32.79,18.14,2022-12-11,True
+181,BrandA Books Product 181,Books,BrandA,388.35,186.49,2022-12-04,False
+182,BrandE Books Product 182,Books,BrandE,75.97,37.95,2022-09-29,True
+183,BrandA Beauty Product 183,Beauty,BrandA,281.08,132.99,2022-10-27,True
+184,BrandE Sports Product 184,Sports,BrandE,392.73,260.8,2022-12-21,False
+185,BrandB Books Product 185,Books,BrandB,367.94,129.28,2022-07-18,True
+186,BrandE Beauty Product 186,Beauty,BrandE,307.02,131.63,2022-07-16,False
+187,BrandE Sports Product 187,Sports,BrandE,458.8,277.55,2022-05-21,True
+188,BrandC Sports Product 188,Sports,BrandC,485.54,233.61,2022-03-10,True
+189,BrandD Clothing Product 189,Clothing,BrandD,305.24,199.8,2022-09-20,True
+190,BrandE Home & Garden Product 190,Home & Garden,BrandE,431.75,252.47,2022-10-11,True
+191,BrandB Beauty Product 191,Beauty,BrandB,108.44,59.61,2022-05-29,True
+192,BrandC Beauty Product 192,Beauty,BrandC,461.38,162.9,2022-12-30,True
+193,BrandB Beauty Product 193,Beauty,BrandB,256.91,148.42,2022-06-15,True
+194,BrandA Beauty Product 194,Beauty,BrandA,382.78,200.93,2022-10-26,True
+195,BrandD Books Product 195,Books,BrandD,340.38,223.82,2022-10-01,True
+196,BrandD Home & Garden Product 196,Home & Garden,BrandD,406.07,206.73,2022-01-13,True
+197,BrandB Sports Product 197,Sports,BrandB,36.0,11.62,2022-05-17,False
+198,BrandB Toys Product 198,Toys,BrandB,491.93,282.05,2022-03-16,False
+199,BrandA Toys Product 199,Toys,BrandA,348.39,145.65,2022-10-05,True
+200,BrandC Electronics Product 200,Electronics,BrandC,408.87,139.42,2022-12-12,True
+201,BrandE Beauty Product 201,Beauty,BrandE,433.77,258.95,2022-10-15,True
+202,BrandB Sports Product 202,Sports,BrandB,260.35,161.09,2022-12-23,True
+203,BrandA Home & Garden Product 203,Home & Garden,BrandA,463.98,211.12,2022-12-17,True
+204,BrandE Home & Garden Product 204,Home & Garden,BrandE,36.36,21.72,2022-04-14,True
+205,BrandD Books Product 205,Books,BrandD,416.69,276.93,2022-12-27,True
+206,BrandC Beauty Product 206,Beauty,BrandC,380.0,197.09,2022-11-05,True
+207,BrandB Clothing Product 207,Clothing,BrandB,154.15,57.19,2022-12-16,True
+208,BrandB Electronics Product 208,Electronics,BrandB,481.61,286.09,2022-03-03,True
+209,BrandA Sports Product 209,Sports,BrandA,219.97,114.96,2022-03-08,True
+210,BrandE Clothing Product 210,Clothing,BrandE,424.55,128.32,2022-08-27,False
+211,BrandB Beauty Product 211,Beauty,BrandB,29.57,19.85,2022-11-02,True
+212,BrandE Electronics Product 212,Electronics,BrandE,423.14,177.91,2022-10-21,True
+213,BrandC Books Product 213,Books,BrandC,45.71,26.65,2022-09-27,True
+214,BrandB Clothing Product 214,Clothing,BrandB,265.1,162.9,2022-03-23,True
+215,BrandE Sports Product 215,Sports,BrandE,273.15,91.99,2022-04-24,True
+216,BrandC Clothing Product 216,Clothing,BrandC,172.22,71.89,2022-11-13,True
+217,BrandD Books Product 217,Books,BrandD,498.35,313.7,2022-11-29,True
+218,BrandA Electronics Product 218,Electronics,BrandA,337.78,161.55,2022-11-25,True
+219,BrandE Books Product 219,Books,BrandE,129.48,40.91,2022-06-14,True
+220,BrandA Sports Product 220,Sports,BrandA,199.08,102.74,2022-05-25,True
+221,BrandE Electronics Product 221,Electronics,BrandE,412.83,185.77,2022-09-18,False
+222,BrandD Sports Product 222,Sports,BrandD,31.49,20.76,2022-04-09,True
+223,BrandE Home & Garden Product 223,Home & Garden,BrandE,50.35,17.04,2022-10-03,True
+224,BrandA Books Product 224,Books,BrandA,317.2,121.9,2022-11-19,False
+225,BrandB Toys Product 225,Toys,BrandB,433.83,203.76,2022-02-23,True
+226,BrandE Clothing Product 226,Clothing,BrandE,416.09,271.06,2022-08-11,True
+227,BrandA Beauty Product 227,Beauty,BrandA,375.98,135.92,2022-08-24,True
+228,BrandC Beauty Product 228,Beauty,BrandC,28.56,9.4,2022-04-02,True
+229,BrandC Toys Product 229,Toys,BrandC,283.46,150.23,2022-04-27,False
+230,BrandD Home & Garden Product 230,Home & Garden,BrandD,200.14,110.49,2022-08-10,True
+231,BrandA Home & Garden Product 231,Home & Garden,BrandA,200.86,69.76,2022-01-04,True
+232,BrandE Beauty Product 232,Beauty,BrandE,40.99,24.53,2022-01-24,True
+233,BrandA Beauty Product 233,Beauty,BrandA,185.27,92.85,2022-05-29,True
+234,BrandC Toys Product 234,Toys,BrandC,307.22,126.76,2022-08-13,True
+235,BrandD Sports Product 235,Sports,BrandD,412.84,128.94,2022-03-22,True
+236,BrandB Books Product 236,Books,BrandB,76.83,35.06,2022-10-07,True
+237,BrandB Home & Garden Product 237,Home & Garden,BrandB,156.05,102.18,2022-11-28,True
+238,BrandA Home & Garden Product 238,Home & Garden,BrandA,281.23,146.81,2022-03-05,True
+239,BrandA Electronics Product 239,Electronics,BrandA,290.63,133.0,2022-10-08,False
+240,BrandC Electronics Product 240,Electronics,BrandC,112.93,67.37,2022-06-26,True
+241,BrandD Clothing Product 241,Clothing,BrandD,453.76,290.67,2022-03-14,True
+242,BrandB Clothing Product 242,Clothing,BrandB,118.19,74.92,2022-04-10,True
+243,BrandB Electronics Product 243,Electronics,BrandB,338.78,178.51,2022-01-28,True
+244,BrandE Toys Product 244,Toys,BrandE,236.02,122.7,2022-05-29,True
+245,BrandA Beauty Product 245,Beauty,BrandA,132.84,50.34,2022-10-25,True
+246,BrandC Sports Product 246,Sports,BrandC,185.0,105.18,2022-05-01,True
+247,BrandC Electronics Product 247,Electronics,BrandC,313.56,206.96,2022-06-12,True
+248,BrandD Sports Product 248,Sports,BrandD,170.89,96.34,2022-12-22,True
+249,BrandB Books Product 249,Books,BrandB,287.12,128.0,2022-06-11,False
+250,BrandB Sports Product 250,Sports,BrandB,12.37,4.93,2022-04-24,True
+251,BrandD Beauty Product 251,Beauty,BrandD,145.57,64.6,2022-12-14,True
+252,BrandC Beauty Product 252,Beauty,BrandC,440.16,213.54,2022-07-03,True
+253,BrandC Toys Product 253,Toys,BrandC,248.62,85.41,2022-11-27,True
+254,BrandA Books Product 254,Books,BrandA,422.48,271.86,2022-03-13,True
+255,BrandB Books Product 255,Books,BrandB,138.98,90.97,2022-02-09,True
+256,BrandA Beauty Product 256,Beauty,BrandA,447.13,286.09,2022-11-20,True
+257,BrandE Electronics Product 257,Electronics,BrandE,293.66,178.45,2022-04-19,True
+258,BrandE Electronics Product 258,Electronics,BrandE,137.7,90.55,2022-10-04,True
+259,BrandB Sports Product 259,Sports,BrandB,189.25,73.68,2022-10-29,True
+260,BrandC Beauty Product 260,Beauty,BrandC,75.6,37.83,2022-02-16,True
+261,BrandC Sports Product 261,Sports,BrandC,256.06,144.69,2022-11-11,True
+262,BrandB Beauty Product 262,Beauty,BrandB,381.03,135.7,2022-03-23,True
+263,BrandE Clothing Product 263,Clothing,BrandE,474.87,267.72,2022-03-16,True
+264,BrandD Beauty Product 264,Beauty,BrandD,470.2,148.66,2022-09-07,True
+265,BrandA Clothing Product 265,Clothing,BrandA,139.53,54.92,2022-12-09,True
+266,BrandE Clothing Product 266,Clothing,BrandE,454.79,202.15,2022-08-29,True
+267,BrandA Sports Product 267,Sports,BrandA,29.55,16.53,2022-02-22,True
+268,BrandE Beauty Product 268,Beauty,BrandE,320.45,131.19,2022-05-15,True
+269,BrandE Books Product 269,Books,BrandE,289.38,130.41,2022-07-13,True
+270,BrandE Home & Garden Product 270,Home & Garden,BrandE,330.13,209.36,2022-09-22,True
+271,BrandD Home & Garden Product 271,Home & Garden,BrandD,486.61,189.37,2022-07-27,True
+272,BrandC Home & Garden Product 272,Home & Garden,BrandC,248.56,122.5,2022-11-06,True
+273,BrandE Electronics Product 273,Electronics,BrandE,442.2,210.47,2022-04-28,True
+274,BrandE Electronics Product 274,Electronics,BrandE,325.3,125.11,2022-04-06,True
+275,BrandC Clothing Product 275,Clothing,BrandC,304.99,191.16,2022-12-05,True
+276,BrandD Clothing Product 276,Clothing,BrandD,407.47,239.63,2022-09-04,True
+277,BrandD Beauty Product 277,Beauty,BrandD,244.72,131.25,2022-11-28,True
+278,BrandD Toys Product 278,Toys,BrandD,21.0,6.66,2022-10-21,False
+279,BrandB Books Product 279,Books,BrandB,76.01,38.39,2022-10-21,True
+280,BrandA Clothing Product 280,Clothing,BrandA,91.51,61.22,2022-09-22,True
+281,BrandE Sports Product 281,Sports,BrandE,484.93,269.16,2022-12-05,True
+282,BrandC Toys Product 282,Toys,BrandC,474.15,183.32,2022-11-07,True
+283,BrandD Sports Product 283,Sports,BrandD,93.58,59.16,2022-11-04,True
+284,BrandE Clothing Product 284,Clothing,BrandE,412.02,153.58,2022-12-04,True
+285,BrandC Books Product 285,Books,BrandC,92.18,52.93,2022-08-21,True
+286,BrandE Books Product 286,Books,BrandE,43.73,19.73,2022-03-09,True
+287,BrandA Electronics Product 287,Electronics,BrandA,109.15,70.27,2022-09-16,True
+288,BrandD Beauty Product 288,Beauty,BrandD,414.99,225.01,2022-04-01,True
+289,BrandE Sports Product 289,Sports,BrandE,303.91,197.88,2022-09-30,True
+290,BrandA Books Product 290,Books,BrandA,55.66,31.38,2022-11-05,True
+291,BrandA Books Product 291,Books,BrandA,449.51,274.18,2022-11-29,True
+292,BrandE Sports Product 292,Sports,BrandE,216.14,140.48,2022-12-24,True
+293,BrandD Books Product 293,Books,BrandD,122.45,76.03,2022-07-15,True
+294,BrandE Home & Garden Product 294,Home & Garden,BrandE,404.26,268.08,2022-12-23,True
+295,BrandA Books Product 295,Books,BrandA,218.49,87.79,2022-04-30,True
+296,BrandA Toys Product 296,Toys,BrandA,148.8,96.83,2022-07-29,True
+297,BrandB Home & Garden Product 297,Home & Garden,BrandB,12.68,7.58,2022-01-04,True
+298,BrandE Books Product 298,Books,BrandE,67.74,20.52,2022-12-02,True
+299,BrandC Clothing Product 299,Clothing,BrandC,210.33,72.07,2022-08-07,True
+300,BrandE Beauty Product 300,Beauty,BrandE,134.28,86.21,2022-08-05,True
+301,BrandC Books Product 301,Books,BrandC,309.82,215.86,2022-07-23,True
+302,BrandB Toys Product 302,Toys,BrandB,212.48,130.36,2022-09-05,False
+303,BrandC Clothing Product 303,Clothing,BrandC,283.96,140.14,2022-06-07,True
+304,BrandC Books Product 304,Books,BrandC,389.36,178.81,2022-03-12,True
+305,BrandA Toys Product 305,Toys,BrandA,376.43,180.17,2022-12-25,True
+306,BrandA Clothing Product 306,Clothing,BrandA,115.08,52.96,2022-06-23,True
+307,BrandE Toys Product 307,Toys,BrandE,310.87,178.39,2022-01-27,True
+308,BrandD Clothing Product 308,Clothing,BrandD,482.64,145.81,2022-02-16,True
+309,BrandB Toys Product 309,Toys,BrandB,241.12,130.23,2022-02-15,True
+310,BrandC Electronics Product 310,Electronics,BrandC,118.67,39.4,2022-01-20,True
+311,BrandD Beauty Product 311,Beauty,BrandD,466.04,214.5,2022-12-02,True
+312,BrandC Books Product 312,Books,BrandC,358.69,193.33,2022-03-31,True
+313,BrandD Beauty Product 313,Beauty,BrandD,225.1,85.69,2022-12-03,True
+314,BrandE Toys Product 314,Toys,BrandE,150.14,47.06,2022-11-03,True
+315,BrandE Books Product 315,Books,BrandE,352.24,192.35,2022-12-12,True
+316,BrandC Electronics Product 316,Electronics,BrandC,127.24,38.19,2022-03-22,True
+317,BrandC Electronics Product 317,Electronics,BrandC,392.04,172.99,2022-07-22,True
+318,BrandE Sports Product 318,Sports,BrandE,108.15,33.11,2022-12-27,True
+319,BrandA Electronics Product 319,Electronics,BrandA,279.3,164.91,2022-10-14,True
+320,BrandC Books Product 320,Books,BrandC,180.26,112.88,2022-04-26,True
+321,BrandB Books Product 321,Books,BrandB,232.83,107.47,2022-01-03,True
+322,BrandB Home & Garden Product 322,Home & Garden,BrandB,209.5,71.77,2022-02-07,True
+323,BrandC Books Product 323,Books,BrandC,176.58,61.24,2022-09-20,True
+324,BrandE Home & Garden Product 324,Home & Garden,BrandE,408.44,216.46,2022-12-22,True
+325,BrandD Sports Product 325,Sports,BrandD,285.95,173.85,2022-06-23,False
+326,BrandD Toys Product 326,Toys,BrandD,343.98,226.55,2022-01-15,True
+327,BrandA Sports Product 327,Sports,BrandA,136.33,61.77,2022-04-23,True
+328,BrandB Beauty Product 328,Beauty,BrandB,402.08,186.96,2022-06-30,True
+329,BrandE Books Product 329,Books,BrandE,14.76,9.34,2022-05-08,True
+330,BrandA Home & Garden Product 330,Home & Garden,BrandA,205.48,123.19,2022-06-25,True
+331,BrandE Electronics Product 331,Electronics,BrandE,466.38,228.82,2022-07-01,True
+332,BrandE Clothing Product 332,Clothing,BrandE,141.85,96.29,2022-12-16,True
+333,BrandD Clothing Product 333,Clothing,BrandD,371.19,146.23,2022-05-04,True
+334,BrandC Toys Product 334,Toys,BrandC,111.32,42.42,2022-05-08,False
+335,BrandE Toys Product 335,Toys,BrandE,184.45,112.81,2022-03-03,False
+336,BrandD Electronics Product 336,Electronics,BrandD,310.78,188.24,2022-10-05,True
+337,BrandD Electronics Product 337,Electronics,BrandD,191.89,81.78,2022-10-22,True
+338,BrandC Toys Product 338,Toys,BrandC,250.49,173.78,2022-09-19,True
+339,BrandD Home & Garden Product 339,Home & Garden,BrandD,118.83,63.06,2022-01-28,True
+340,BrandD Books Product 340,Books,BrandD,244.38,126.18,2022-09-15,True
+341,BrandD Home & Garden Product 341,Home & Garden,BrandD,431.6,263.43,2022-08-23,True
+342,BrandE Electronics Product 342,Electronics,BrandE,235.43,135.53,2022-01-07,True
+343,BrandB Beauty Product 343,Beauty,BrandB,195.92,66.67,2022-07-05,True
+344,BrandC Books Product 344,Books,BrandC,101.7,41.2,2022-05-18,True
+345,BrandE Sports Product 345,Sports,BrandE,178.12,66.54,2022-08-06,True
+346,BrandD Clothing Product 346,Clothing,BrandD,353.35,158.63,2022-07-25,True
+347,BrandD Home & Garden Product 347,Home & Garden,BrandD,98.15,34.59,2022-10-22,True
+348,BrandB Beauty Product 348,Beauty,BrandB,408.95,240.6,2022-05-01,True
+349,BrandD Books Product 349,Books,BrandD,429.59,162.57,2022-03-18,False
+350,BrandA Sports Product 350,Sports,BrandA,96.54,48.25,2022-11-19,True
+351,BrandE Books Product 351,Books,BrandE,363.07,222.97,2022-06-03,True
+352,BrandE Home & Garden Product 352,Home & Garden,BrandE,430.67,137.42,2022-02-20,True
+353,BrandB Beauty Product 353,Beauty,BrandB,39.42,24.66,2022-09-01,True
+354,BrandA Toys Product 354,Toys,BrandA,230.43,99.97,2022-07-04,True
+355,BrandE Home & Garden Product 355,Home & Garden,BrandE,283.17,176.7,2022-06-26,True
+356,BrandD Electronics Product 356,Electronics,BrandD,69.41,44.9,2022-11-07,True
+357,BrandE Clothing Product 357,Clothing,BrandE,292.19,163.52,2022-03-31,False
+358,BrandC Toys Product 358,Toys,BrandC,184.0,104.75,2022-09-07,True
+359,BrandD Toys Product 359,Toys,BrandD,445.92,201.75,2022-05-27,True
+360,BrandB Sports Product 360,Sports,BrandB,435.45,242.21,2022-06-22,True
+361,BrandE Sports Product 361,Sports,BrandE,290.1,185.54,2022-02-06,False
+362,BrandB Electronics Product 362,Electronics,BrandB,178.38,75.88,2022-12-01,True
+363,BrandC Home & Garden Product 363,Home & Garden,BrandC,306.64,140.5,2022-08-16,True
+364,BrandC Toys Product 364,Toys,BrandC,376.47,191.39,2022-08-19,True
+365,BrandB Sports Product 365,Sports,BrandB,100.1,30.95,2022-05-01,True
+366,BrandC Beauty Product 366,Beauty,BrandC,470.81,273.2,2022-02-10,True
+367,BrandB Clothing Product 367,Clothing,BrandB,204.55,69.18,2022-08-31,True
+368,BrandA Books Product 368,Books,BrandA,22.92,10.52,2022-02-12,False
+369,BrandC Electronics Product 369,Electronics,BrandC,312.87,104.41,2022-07-19,True
+370,BrandB Home & Garden Product 370,Home & Garden,BrandB,131.22,54.28,2022-11-17,True
+371,BrandB Clothing Product 371,Clothing,BrandB,268.1,98.73,2022-01-18,False
+372,BrandC Beauty Product 372,Beauty,BrandC,431.58,185.61,2022-09-01,True
+373,BrandE Sports Product 373,Sports,BrandE,468.08,243.13,2022-03-11,True
+374,BrandE Beauty Product 374,Beauty,BrandE,96.75,52.15,2022-11-20,True
+375,BrandE Beauty Product 375,Beauty,BrandE,223.14,124.05,2022-10-01,True
+376,BrandC Home & Garden Product 376,Home & Garden,BrandC,246.01,96.15,2022-02-15,True
+377,BrandC Sports Product 377,Sports,BrandC,189.23,76.43,2022-06-05,True
+378,BrandA Electronics Product 378,Electronics,BrandA,266.42,160.74,2022-03-11,True
+379,BrandC Home & Garden Product 379,Home & Garden,BrandC,239.91,72.77,2022-09-09,True
+380,BrandD Toys Product 380,Toys,BrandD,156.81,95.08,2022-05-30,True
+381,BrandB Books Product 381,Books,BrandB,400.42,207.93,2022-04-07,True
+382,BrandE Sports Product 382,Sports,BrandE,224.18,89.66,2022-11-27,True
+383,BrandD Sports Product 383,Sports,BrandD,118.09,39.17,2022-11-17,False
+384,BrandE Clothing Product 384,Clothing,BrandE,384.62,255.38,2022-12-22,True
+385,BrandC Beauty Product 385,Beauty,BrandC,149.49,89.27,2022-05-18,True
+386,BrandB Sports Product 386,Sports,BrandB,428.21,159.71,2022-05-29,True
+387,BrandD Electronics Product 387,Electronics,BrandD,312.69,127.84,2022-11-15,True
+388,BrandB Sports Product 388,Sports,BrandB,167.12,60.31,2022-10-01,True
+389,BrandB Electronics Product 389,Electronics,BrandB,486.44,200.82,2022-03-06,False
+390,BrandD Beauty Product 390,Beauty,BrandD,366.28,143.99,2022-03-19,True
+391,BrandD Electronics Product 391,Electronics,BrandD,116.42,54.5,2022-09-13,True
+392,BrandD Home & Garden Product 392,Home & Garden,BrandD,351.5,109.91,2022-02-11,True
+393,BrandB Toys Product 393,Toys,BrandB,37.46,22.86,2022-02-06,True
+394,BrandD Books Product 394,Books,BrandD,98.99,65.16,2022-05-09,True
+395,BrandD Toys Product 395,Toys,BrandD,415.84,145.04,2023-01-01,True
+396,BrandD Clothing Product 396,Clothing,BrandD,387.9,185.1,2022-01-18,True
+397,BrandD Clothing Product 397,Clothing,BrandD,370.31,125.01,2022-12-07,True
+398,BrandD Clothing Product 398,Clothing,BrandD,200.67,137.36,2022-06-15,True
+399,BrandA Clothing Product 399,Clothing,BrandA,374.92,194.9,2022-03-04,True
+400,BrandD Home & Garden Product 400,Home & Garden,BrandD,322.87,122.53,2022-01-27,True
+401,BrandB Toys Product 401,Toys,BrandB,486.9,192.03,2022-08-11,True
+402,BrandA Home & Garden Product 402,Home & Garden,BrandA,92.01,37.76,2022-03-03,True
+403,BrandB Sports Product 403,Sports,BrandB,14.38,4.56,2022-12-20,True
+404,BrandE Sports Product 404,Sports,BrandE,85.95,52.29,2022-05-08,True
+405,BrandD Clothing Product 405,Clothing,BrandD,54.79,30.0,2022-11-17,True
+406,BrandA Electronics Product 406,Electronics,BrandA,184.2,66.6,2022-10-02,True
+407,BrandA Toys Product 407,Toys,BrandA,71.66,28.17,2022-10-13,True
+408,BrandC Toys Product 408,Toys,BrandC,404.71,192.43,2022-04-09,True
+409,BrandD Electronics Product 409,Electronics,BrandD,185.5,65.65,2022-01-21,True
+410,BrandD Sports Product 410,Sports,BrandD,283.92,146.81,2022-09-08,True
+411,BrandE Clothing Product 411,Clothing,BrandE,101.45,44.54,2022-08-28,True
+412,BrandE Home & Garden Product 412,Home & Garden,BrandE,458.09,239.04,2022-02-05,True
+413,BrandB Books Product 413,Books,BrandB,230.2,144.51,2022-10-05,True
+414,BrandD Home & Garden Product 414,Home & Garden,BrandD,10.35,5.75,2022-07-14,True
+415,BrandB Beauty Product 415,Beauty,BrandB,442.64,242.52,2022-07-06,True
+416,BrandE Toys Product 416,Toys,BrandE,127.01,74.73,2022-12-04,False
+417,BrandD Books Product 417,Books,BrandD,103.04,59.07,2022-10-10,True
+418,BrandE Clothing Product 418,Clothing,BrandE,148.73,69.0,2022-06-14,True
+419,BrandA Electronics Product 419,Electronics,BrandA,266.37,87.02,2022-03-08,True
+420,BrandA Clothing Product 420,Clothing,BrandA,109.02,53.87,2022-02-20,False
+421,BrandE Electronics Product 421,Electronics,BrandE,324.46,147.77,2022-09-08,True
+422,BrandE Books Product 422,Books,BrandE,353.64,142.3,2022-07-07,True
+423,BrandE Clothing Product 423,Clothing,BrandE,361.74,110.42,2022-04-17,True
+424,BrandD Beauty Product 424,Beauty,BrandD,464.92,294.22,2022-08-28,True
+425,BrandA Toys Product 425,Toys,BrandA,186.85,111.62,2022-08-01,False
+426,BrandC Toys Product 426,Toys,BrandC,399.18,129.06,2022-11-12,False
+427,BrandE Home & Garden Product 427,Home & Garden,BrandE,29.92,9.82,2022-06-05,True
+428,BrandB Electronics Product 428,Electronics,BrandB,480.69,162.88,2022-04-29,False
+429,BrandD Books Product 429,Books,BrandD,102.84,52.5,2022-05-08,True
+430,BrandB Books Product 430,Books,BrandB,283.63,148.41,2022-02-24,True
+431,BrandE Toys Product 431,Toys,BrandE,185.4,89.64,2022-12-07,True
+432,BrandA Sports Product 432,Sports,BrandA,91.74,34.14,2022-07-25,True
+433,BrandC Books Product 433,Books,BrandC,332.19,170.6,2022-11-04,True
+434,BrandC Sports Product 434,Sports,BrandC,452.22,235.17,2022-06-16,True
+435,BrandC Toys Product 435,Toys,BrandC,212.05,117.33,2022-06-15,True
+436,BrandB Books Product 436,Books,BrandB,285.94,110.25,2022-10-09,True
+437,BrandC Beauty Product 437,Beauty,BrandC,186.4,89.65,2022-07-23,True
+438,BrandA Electronics Product 438,Electronics,BrandA,491.65,264.66,2022-09-23,True
+439,BrandC Clothing Product 439,Clothing,BrandC,13.22,9.17,2022-04-20,True
+440,BrandC Toys Product 440,Toys,BrandC,20.63,12.97,2022-12-20,True
+441,BrandC Toys Product 441,Toys,BrandC,460.36,232.26,2022-10-20,False
+442,BrandB Books Product 442,Books,BrandB,56.2,27.21,2022-03-21,True
+443,BrandC Clothing Product 443,Clothing,BrandC,189.87,101.17,2022-04-30,True
+444,BrandC Home & Garden Product 444,Home & Garden,BrandC,55.03,25.31,2022-04-22,True
+445,BrandA Beauty Product 445,Beauty,BrandA,364.55,224.99,2022-03-30,True
+446,BrandE Sports Product 446,Sports,BrandE,411.56,139.17,2022-11-25,True
+447,BrandA Home & Garden Product 447,Home & Garden,BrandA,368.09,195.28,2022-02-10,True
+448,BrandA Toys Product 448,Toys,BrandA,461.72,200.27,2022-08-11,True
+449,BrandA Sports Product 449,Sports,BrandA,436.2,170.42,2022-12-01,False
+450,BrandE Toys Product 450,Toys,BrandE,465.04,257.43,2022-11-20,True
+451,BrandA Sports Product 451,Sports,BrandA,159.34,50.43,2022-10-04,True
+452,BrandB Books Product 452,Books,BrandB,170.15,98.54,2022-03-20,True
+453,BrandD Electronics Product 453,Electronics,BrandD,485.81,292.04,2022-10-22,True
+454,BrandA Books Product 454,Books,BrandA,118.82,49.42,2022-07-21,True
+455,BrandB Clothing Product 455,Clothing,BrandB,174.72,85.67,2022-01-26,True
+456,BrandD Books Product 456,Books,BrandD,138.65,63.7,2022-08-11,False
+457,BrandB Toys Product 457,Toys,BrandB,383.4,188.77,2022-04-12,True
+458,BrandD Sports Product 458,Sports,BrandD,329.6,124.73,2022-11-12,True
+459,BrandE Beauty Product 459,Beauty,BrandE,130.66,42.94,2022-08-09,True
+460,BrandE Home & Garden Product 460,Home & Garden,BrandE,53.9,30.65,2022-08-05,True
+461,BrandC Home & Garden Product 461,Home & Garden,BrandC,103.34,45.24,2022-12-02,True
+462,BrandC Electronics Product 462,Electronics,BrandC,92.94,40.88,2022-08-15,True
+463,BrandB Books Product 463,Books,BrandB,225.83,151.24,2022-04-30,True
+464,BrandC Clothing Product 464,Clothing,BrandC,86.44,51.12,2022-02-13,True
+465,BrandA Electronics Product 465,Electronics,BrandA,129.09,70.79,2022-03-17,False
+466,BrandC Toys Product 466,Toys,BrandC,16.73,9.66,2022-02-26,True
+467,BrandD Home & Garden Product 467,Home & Garden,BrandD,240.88,104.24,2022-10-03,False
+468,BrandB Clothing Product 468,Clothing,BrandB,277.75,166.69,2022-10-08,True
+469,BrandE Sports Product 469,Sports,BrandE,367.66,131.09,2022-12-24,True
+470,BrandA Beauty Product 470,Beauty,BrandA,194.54,128.87,2022-09-27,True
+471,BrandC Electronics Product 471,Electronics,BrandC,93.46,38.66,2022-12-23,True
+472,BrandC Books Product 472,Books,BrandC,36.01,20.23,2022-01-05,True
+473,BrandD Electronics Product 473,Electronics,BrandD,333.58,188.54,2022-12-04,True
+474,BrandA Home & Garden Product 474,Home & Garden,BrandA,19.35,12.52,2022-11-29,True
+475,BrandB Sports Product 475,Sports,BrandB,490.1,246.72,2022-12-30,True
+476,BrandC Electronics Product 476,Electronics,BrandC,247.48,133.35,2022-02-15,True
+477,BrandB Clothing Product 477,Clothing,BrandB,255.32,123.37,2022-12-31,True
+478,BrandA Electronics Product 478,Electronics,BrandA,131.22,67.15,2022-06-20,True
+479,BrandD Sports Product 479,Sports,BrandD,374.75,115.18,2022-12-17,True
+480,BrandC Home & Garden Product 480,Home & Garden,BrandC,316.36,124.8,2022-09-14,True
+481,BrandA Home & Garden Product 481,Home & Garden,BrandA,316.64,206.28,2022-01-16,True
+482,BrandC Books Product 482,Books,BrandC,120.54,52.64,2022-07-21,True
+483,BrandB Beauty Product 483,Beauty,BrandB,53.02,24.01,2022-12-14,True
+484,BrandB Books Product 484,Books,BrandB,214.49,113.5,2022-08-07,True
+485,BrandE Home & Garden Product 485,Home & Garden,BrandE,171.35,88.57,2022-04-16,True
+486,BrandB Beauty Product 486,Beauty,BrandB,294.71,169.05,2022-04-14,True
+487,BrandB Toys Product 487,Toys,BrandB,161.41,93.95,2022-09-26,True
+488,BrandD Clothing Product 488,Clothing,BrandD,497.89,343.7,2022-03-16,True
+489,BrandE Beauty Product 489,Beauty,BrandE,459.38,196.15,2022-10-13,True
+490,BrandA Books Product 490,Books,BrandA,100.23,63.73,2022-03-16,True
+491,BrandA Beauty Product 491,Beauty,BrandA,385.06,251.08,2022-07-31,True
+492,BrandC Sports Product 492,Sports,BrandC,227.07,152.93,2022-11-23,True
+493,BrandC Beauty Product 493,Beauty,BrandC,84.46,31.69,2022-03-09,True
+494,BrandA Clothing Product 494,Clothing,BrandA,383.6,208.98,2022-05-17,True
+495,BrandE Books Product 495,Books,BrandE,310.06,166.98,2022-04-29,True
+496,BrandA Beauty Product 496,Beauty,BrandA,186.04,107.02,2022-09-02,True
+497,BrandE Clothing Product 497,Clothing,BrandE,424.61,207.0,2022-11-29,True
+498,BrandB Home & Garden Product 498,Home & Garden,BrandB,427.54,212.31,2022-03-12,True
+499,BrandB Clothing Product 499,Clothing,BrandB,120.87,56.02,2022-01-08,True
+500,BrandD Home & Garden Product 500,Home & Garden,BrandD,119.05,67.68,2022-04-14,True
